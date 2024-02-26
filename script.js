@@ -64,6 +64,6 @@ function calculate(){
 //TODO make the AC button functional
 /*
 function clear(){
-    answer.textContent = "AF"
+    answer.textContent = '';
 }
 */
