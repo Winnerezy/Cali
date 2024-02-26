@@ -8,24 +8,25 @@
 </head>
 <body>
     <main id="container">
-        <section id="screen"></section>
+        <section id="screen">
+            <h4 id="answer"></h4>
+        </section>
         <section id="buttons">
-            <button>0</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>0</button>
-            <button>+</button>
-            <button>-</button>
-            <button>x</button>
-            <button>/</button>
-            <button>=</button>
+            <button onclick="number(0)">0</button>
+            <button onclick="number(1)">1</button>
+            <button onclick="number(2)">2</button>
+            <button onclick="number(3)">3</button>
+            <button onclick="number(4)">4</button>
+            <button onclick="number(5)">5</button>
+            <button onclick="number(6)">6</button>
+            <button onclick="number(7)">7</button>
+            <button onclick="number(8)">8</button>
+            <button onclick="number(9)">9</button>
+            <button onclick="operator('+')">+</button>
+            <button onclick="operator('-')">-</button>
+            <button onclick="operator('x')">x</button>
+            <button onclick="operator('/')">/</button>
+            <button onclick="calculate()">=</button>
         </section>
     </main>
     <script src="script.js"></script>
