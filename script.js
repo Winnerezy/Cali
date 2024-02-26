@@ -30,10 +30,10 @@ function calculate(){
         case '+':
             result = num1 + num2;
             if(num2 === ""){
-            answer.textContent = num1;
+                answer.textContent = num1;
             break;
             }else{
-            answer.textContent = result;
+                answer.textContent = result;
             break;
             }  
         
@@ -60,10 +60,10 @@ function calculate(){
 
 }
 
-//clears the screen
-//TODO make the AC button functional
-/*
-function clear(){
+const clear = document.getElementById('clear');
+
+//clears the screen when AC is clicked
+clear.addEventListener('click', () => {
     answer.textContent = '';
-}
-*/
+    numValue.textContent = '';
+})
