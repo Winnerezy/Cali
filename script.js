@@ -15,13 +15,3 @@ function operator(op){
     currentNum = '';
 }
 
-function calculate(){
-    const num1 = parseFloat(previousNum)
-    const num2 = parseFloat(currentNum)
-
-    switch(operators){
-        case '+':
-           const result = num1 + num2;
-            answer.textContent = result
-    }
-}
