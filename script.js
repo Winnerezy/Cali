@@ -5,11 +5,14 @@ let result;
 let currentNum = '';
 let previousNum = '';
 let operators = '';
+
+//execute the function to click on the predefined numbers to get the current input 
 function number(num){
    currentNum += num;
    numValue.textContent = currentNum;
 }
 
+//function to add an operator
 function operator(op){
     operators = op;
     numValue.textContent = operators;
@@ -17,10 +20,12 @@ function operator(op){
     currentNum = '';
 }
 
+//calculate function to execute when the "=" is clicked 
 function calculate(){
     const num1 = parseFloat(previousNum);
     const num2 = parseFloat(currentNum);
 
+    //if any operator is clicked the piece of code will be executed
     switch(operators){
         case '+':
             result = num1 + num2;
@@ -55,10 +60,10 @@ function calculate(){
 
 }
 
+//clears the screen
+//TODO make the AC button functional
+/*
 function clear(){
-    currentNum = '';
-    previousNum = '';
-    operators = '';
-    answer.textContent = "";
-    numValue.textContent = "";
+    answer.textContent = "AF"
 }
+*/
