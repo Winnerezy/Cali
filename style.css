@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: #212121;
     color: white;
     display: flex;
     justify-content: center;
     align-items: end;
     position: relative;
+    font-family: "Oswald";
+    font-weight: 150;
 }
 
 #container{
@@ -57,4 +61,7 @@ button{
     background-color: black;
     border-radius: 5px;
     color: white;
+    box-shadow: -1.5px 1.5px 3px black;
+    border: none;
+    font-family: "Oswald";
 }

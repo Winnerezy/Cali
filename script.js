@@ -24,8 +24,13 @@ function calculate(){
     switch(operators){
         case '+':
             result = num1 + num2;
+            if(num2 === ""){
+            answer.textContent = num1;
+            break;
+            }else{
             answer.textContent = result;
             break;
+            }  
         
         case '-':
          result = num1 - num2;
