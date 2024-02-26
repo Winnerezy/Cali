@@ -23,7 +23,7 @@ body{
     justify-content: center;
     grid-template-rows: auto auto;
     background-color: white;
-    height: 600px;
+    height: 650px;
     width: 400px;
     position: relative;
     row-gap: 20px;
