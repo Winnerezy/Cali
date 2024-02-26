@@ -33,6 +33,16 @@ body{
     background-color: black;
 }
 
+#value{
+    text-align: end;
+    margin-right: 10px;
+}
+
+#answer{
+    text-align: end;
+    margin-right: 10px;
+}
+
 #buttons{
     display: grid;
     grid-template-columns: auto auto auto auto;
